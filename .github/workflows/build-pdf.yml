@@ -23,8 +23,13 @@ jobs:
       run: |
         typst compile satzung.typ
 
-    - name: Upload PDF as artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: satzung-pdf
-        path: satzung.pdf
+    - name: Push PDF
+      env: 
+        CI_COMMIT_MESSAGE: Continuous Integration Build Artifacts
+        CI_COMMIT_AUTHOR: Continuous Integration
+      run: |
+        git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
+        git config --global user.email "mjdazz@users.noreply.github.com"
+        git add satzung.pdf
+        git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
+        git push
