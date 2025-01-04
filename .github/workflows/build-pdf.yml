@@ -1,0 +1,30 @@
+name: Build PDF
+
+on:
+  push:
+    branches:
+      - '**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Install Typst
+      run: |
+        wget https://github.com/typst/typst/releases/download/v0.12.0/typst-x86_64-unknown-linux-musl.tar.xz
+        tar -xf typst-x86_64-unknown-linux-musl.tar.xz
+        sudo mv typst-x86_64-unknown-linux-musl/typst /usr/local/bin/
+
+    - name: Build PDF
+      run: |
+        typst compile satzung.typ
+
+    - name: Upload PDF as artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: satzung-pdf
+        path: satzung.pdf
