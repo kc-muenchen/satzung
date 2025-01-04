@@ -2,8 +2,8 @@ name: Build PDF
 
 on:
   push:
-    branches:
-      - '**'
+    branches-ignore:
+      - main
 
 jobs:
   build:
