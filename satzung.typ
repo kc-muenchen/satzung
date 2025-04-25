@@ -2,7 +2,7 @@
 
 #show: delegis.with(
   // Metadata
-  title: "Vereinsordnung des KickerClub München e.V.",
+  title: "Vereinssatzung des KickerClub München e.V.",
   abbreviation: "KCM",
   resolution: "Jahreshauptversammlung vom 16.11.2024",
   in-effect: "16.11.2024",
