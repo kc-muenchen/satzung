@@ -2,7 +2,7 @@
 
 #show: delegis.with(
   // Metadata
-  title: "Vereinssatzung des KickerClub München e.V.",
+  title: "Satzung des KickerClub München e.V.",
   abbreviation: "KCM",
   resolution: "Jahreshauptversammlung vom 16.11.2024",
   in-effect: "16.11.2024",
@@ -59,7 +59,7 @@ Der Verein ist selbstlos tätig; er verfolgt nicht in erster Linie eigenwirtscha
 § 3 Vereinstätigkeit
 
 (1)
-Die Verwirklichung des Vereinszwecks erfolgt durch die Ausübung der Sportart Drehstangen-Tischfußball.
+Die Verwirklichung des Vereinszwecks erfolgt durch die Ausübung der Sportart Tischfußball.
 
 (2)
 Der Verein ist politisch und konfessionell neutral.
@@ -168,7 +168,7 @@ Organe des Vereines sind:
 § 9 Vorstand
 
 (1)
-Der Vorstand besteht aus 3-5 gleichberechtigten Personen. Die jeweiligen Aufgaben werden innerhalb der Vereinsordnung geregelt.
+Der Vorstand besteht aus 3 oder 5 gleichberechtigten Personen. Die jeweiligen Aufgaben werden innerhalb der Vereinsordnung geregelt.
 
 (2)
 Der Verein wird gerichtlich und außergerichtlich durch die Mitglieder des Vorstands jeweils zu zweit vertreten.
@@ -297,7 +297,7 @@ Die Auflösung des Vereins kann nur in einer eigens zu diesem Zweck und unter Ei
 In der Auflösungsversammlung bestellen die Mitglieder die Liquidator:innen, die dann die laufenden Geschäfte abzuwickeln haben.
 
 (2)
-Das nach Auflösung oder Aufhebung des Vereins oder bei Wegfall steuerbegünstigter Zwecke verbleibende Vermögen fällt mit der Maßgabe, es wiederum unmittelbar und ausschließlich für gemeinnützige Zwecke im Sinne dieser Satzung zu verwenden, an einen in der Auflösungs-versammlung zu benennenden (anderen) gemeinnützigen bayrischen Drehstangen-Tischfußballverein oder für den Fall dessen Ablehnung an den Bayerischen Tischfußballverband e.V. (BTFV).
+Das nach Auflösung oder Aufhebung des Vereins oder bei Wegfall steuerbegünstigter Zwecke verbleibende Vermögen fällt mit der Maßgabe, es wiederum unmittelbar und ausschließlich für gemeinnützige Zwecke im Sinne dieser Satzung zu verwenden, an einen in der Auflösungs-versammlung zu benennenden (anderen) gemeinnützigen bayrischen Tischfußballverein oder für den Fall dessen Ablehnung an den Bayerischen Tischfußballverband e.V. (BTFV).
 
 
 § 16 Inkrafttreten
