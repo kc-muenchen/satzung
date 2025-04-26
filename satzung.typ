@@ -11,6 +11,12 @@
   logo: image("kcm.png", alt: "KickerClub München e. V."),
 )
 
+// increase spacing around headline
+#show heading: set block(above: 3em, below: 2em)
+
+// set indentation for list items
+#set list(indent: 1em)
+
 /// Usage
 //
 //  "§ 123abc Section title" for a section "§ 123abc" with the title "Section title"
@@ -161,8 +167,8 @@ Bei unterjährigem Eintritt wird der Beitrag monatlich berechnet.
 § 8 Organe des Vereines
 
 Organe des Vereines sind:
-• der Vorstand
-• die Mitgliederversammlung
+- der Vorstand
+- die Mitgliederversammlung
 
 
 § 9 Vorstand
@@ -196,7 +202,9 @@ Vorstandsmitglieder nach §~9 Abs. 1 können nur Vereinsmitglieder werden. Schei
 
 (10)
 Der Vorstand ist unter Befreiung von den Beschränkungen des §~181 BGB ermächtigt, Änderungen oder Ergänzungen der Satzung vorzunehmen, die zur Behebung gerichtlicher oder behördlicher Beanstandungen erforderlich oder zweckdienlich sind.
-§~10 Mitgliederversammlung
+
+
+§ 10 Mitgliederversammlung
 
 (1)
 Die Mitgliederversammlung stellt das höchste Organ des Vereins dar.
