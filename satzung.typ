@@ -11,6 +11,12 @@
   logo: image("kcm.png", alt: "KickerClub München e. V."),
 )
 
+// increase spacing around headline
+#show heading: set block(above: 3em, below: 2em)
+
+// set indentation for list items
+#set list(indent: 1em)
+
 /// Usage
 //
 //  "§ 123abc Section title" for a section "§ 123abc" with the title "Section title"
@@ -28,6 +34,11 @@
 
 #outline()
 
+// set formatting for sub-list
+#set enum(
+  numbering: "a)",
+  indent: 1em,
+  )
 
 § 1 Name, Sitz, Geschäftsjahr 
 
@@ -77,7 +88,7 @@ Die Vereins- und Organämter werden grundsätzlich ehrenamtlich ausgeübt, sowei
 Bei Bedarf können Vereinsämter im Rahmen der haushaltsrechtlichen Möglichkeiten entgeltlich auf der Grundlage eines Dienstvertrages oder gegen Zahlung einer angemessenen - auch pauschalierten - Aufwandsentschädigung ausgeübt werden.
 
 (3)
-Die Entscheidung über eine entgeltliche Vereinstätigkeit nach Absatz (2) trifft die Mitglieder-versammlung. Gleiches gilt für die Vertragsinhalte und die Vertragsbeendigung.
+Die Entscheidung über eine entgeltliche Vereinstätigkeit nach Absatz (2) trifft die Mitgliederversammlung. Gleiches gilt für die Vertragsinhalte und die Vertragsbeendigung.
 
 (4)
 Der Vorstand ist ermächtigt, Tätigkeiten für den Verein gegen Zahlung einer angemessenen Vergütung oder Aufwandsentschädigung zu beauftragen. Maßgebend ist die Haushaltslage des Vereins.
@@ -129,8 +140,12 @@ Der dem Vorstand gegenüber schriftlich zu erklärende Austritt ist jederzeit zu
 
 (3)
 Ein Mitglied kann durch Beschluss der Mitgliederversammlung aus dem Verein ausgeschlossen werden, wenn es
-a) schuldhaft das Ansehen oder die Interessen des Vereins in schwerwiegender Weise schädigt oder b) mehr als drei Monate mit der Zahlung seiner Aufnahmegebühr oder seiner Mitgliedsbeiträge im Rückstand ist und trotz schriftlicher Mahnung unter Androhung des Ausschlusses die Rückstände nicht eingezahlt hat oder
-c) Unfrieden im Verein stiftet.
+
++ schuldhaft das Ansehen oder die Interessen des Vereins in schwerwiegender Weise schädigt oder 
+
++ mehr als drei Monate mit der Zahlung seiner Aufnahmegebühr oder seiner Mitgliedsbeiträge im Rückstand ist und trotz schriftlicher Mahnung unter Androhung des Ausschlusses die Rückstände nicht eingezahlt hat oder
+
++ Unfrieden im Verein stiftet.
 Dem Mitglied ist Gelegenheit zu geben, in der Mitgliederversammlung zu den Gründen des Ausschlusses Stellung zu nehmen. Diese sind ihm mindestens zwei Wochen vorher mitzuteilen.
 
 (4)
@@ -161,8 +176,8 @@ Bei unterjährigem Eintritt wird der Beitrag monatlich berechnet.
 § 8 Organe des Vereines
 
 Organe des Vereines sind:
-• der Vorstand
-• die Mitgliederversammlung
+- der Vorstand
+- die Mitgliederversammlung
 
 
 § 9 Vorstand
@@ -196,7 +211,9 @@ Vorstandsmitglieder nach §~9 Abs. 1 können nur Vereinsmitglieder werden. Schei
 
 (10)
 Der Vorstand ist unter Befreiung von den Beschränkungen des §~181 BGB ermächtigt, Änderungen oder Ergänzungen der Satzung vorzunehmen, die zur Behebung gerichtlicher oder behördlicher Beanstandungen erforderlich oder zweckdienlich sind.
-§~10 Mitgliederversammlung
+
+
+§ 10 Mitgliederversammlung
 
 (1)
 Die Mitgliederversammlung stellt das höchste Organ des Vereins dar.
@@ -236,14 +253,22 @@ Die Mitgliederversammlung wird von einem Mitglied des Vorstands geleitet. Ist ke
  
 (13)
 Die Mitgliederversammlung ist insbesondere für folgende Angelegenheiten zuständig:
-a) Wahl, Abberufung und Entlastung des Vorstandes,
-b) Wahl und Abberufung von Kassenprüfer:in und Entgegennahme des Kassenberichtes,
-c) Beschlussfassung über Änderung der Satzung, über Vereinsauflösung und über Vereinsordnungen,
-d) Beschlussfassung über das Beitragswesen,
-e) Beschlussfassung über die Rücklagenbildung,
-f) Beschlussfassung über die Auflösung von Abteilungen,
-g) weitere Aufgaben, soweit sich diese aus der Satzung oder nach Gesetz ergeben bzw. Gegenstand der Tagesordnung sind.
-h) Als höchstem Vereinsorgan obliegt der Mitgliederversammlung zudem die Kontrolle des Vorstands. Insbesondere können Vorstandsentscheidungen widerrufen bzw. verändert werden.
+
++ Wahl, Abberufung und Entlastung des Vorstandes,
+
++ Wahl und Abberufung von Kassenprüfer:in und Entgegennahme des Kassenberichtes,
+
++ Beschlussfassung über Änderung der Satzung, über Vereinsauflösung und über Vereinsordnungen,
+
++ Beschlussfassung über das Beitragswesen,
+
++ Beschlussfassung über die Rücklagenbildung,
+
++ Beschlussfassung über die Auflösung von Abteilungen,
+
++ weitere Aufgaben, soweit sich diese aus der Satzung oder nach Gesetz ergeben bzw. Gegenstand der Tagesordnung sind.
+
++ Als höchstem Vereinsorgan obliegt der Mitgliederversammlung zudem die Kontrolle des Vorstands. Insbesondere können Vorstandsentscheidungen widerrufen bzw. verändert werden.
 
 (14)
 Über die Mitgliederversammlung ist eine Niederschrift aufzunehmen. Diese ist von der
