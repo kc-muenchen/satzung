@@ -5,7 +5,7 @@
   title: "Satzung des KickerClub München e.V.",
   abbreviation: "KCM",
   resolution: "Jahreshauptversammlung vom 16.11.2024",
-  in-effect: "16.11.2024",
+  // in-effect: "16.11.2024", -> Datum des Inkrafttretens wissen wir nicht, Satzung tritt erst mit Eintragung ins Vereinsregister in Kraft
   draft: false,
   // Template
   logo: image("kcm.png", alt: "KickerClub München e. V."),
