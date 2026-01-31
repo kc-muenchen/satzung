@@ -325,7 +325,7 @@ In der Auflösungsversammlung bestellen die Mitglieder die Liquidator:innen, die
 Das nach Auflösung oder Aufhebung des Vereins oder bei Wegfall steuerbegünstigter Zwecke verbleibende Vermögen fällt mit der Maßgabe, es wiederum unmittelbar und ausschließlich für gemeinnützige Zwecke im Sinne dieser Satzung zu verwenden, an einen in der Auflösungs-versammlung zu benennenden (anderen) gemeinnützigen bayrischen Tischfußballverein oder für den Fall dessen Ablehnung an den Bayerischen Tischfußballverband e.V. (BTFV).
 
 
-§ 16 Inkrafttreten
+§ 16 Beschluss und Inkrafttreten
 
 (1)
-Die Satzung wurde bei der Jahreshauptversammlung am 16.11.2024 in München beschlossen und tritt sofort in Kraft.
+Die geänderte Satzung wurde bei der Jahreshauptversammlung am 16.11.2024 in München beschlossen und tritt mit Eintragung in das Vereinsregister in Kraft.
