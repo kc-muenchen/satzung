@@ -58,7 +58,7 @@ Der Verein ist Mitglied des Bayerischen Landes-Sportverbandes e.V. und erkennt d
 § 2 Vereinszweck und Gemeinnützigkeit
 
 (1)
-Vereinszweck ist die Pflege und Förderung des Sports, insbesondere die Ausübung der Sportart „Tischfußball". Breitensport, Jugendarbeit, Damensport, Behindertensport sowie Teilnahme am Ligabetrieb des Bayerischen Tischfußballverbands e.V. und an Turnieren sind Schwerpunkte des Vereinslebens.
+Vereinszweck ist die Pflege und Förderung des Sports, insbesondere des Tischfußballs. Breitensport, Jugendarbeit, Damensport, Behindertensport sowie Teilnahme am Ligabetrieb des Bayerischen Tischfußballverbands e.V. und an Turnieren sind Schwerpunkte des Vereinslebens.
 
 (2)
 Der Verein verfolgt ausschließlich und unmittelbar gemeinnützige Zwecke im Sinne des Abschnitts "Steuerbegünstigte Zwecke" der Abgabenordnung.
