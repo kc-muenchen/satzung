@@ -1,14 +1,19 @@
-#import "@preview/delegis:0.3.0": *
+#import "@preview/delegis:0.4.0": *
 
 #show: delegis.with(
   // Metadata
   title: "Satzung des KickerClub München e.V.",
   abbreviation: "KCM",
   resolution: "Jahreshauptversammlung vom 16.11.2024",
-  // in-effect: "16.11.2024", -> Datum des Inkrafttretens wissen wir nicht, Satzung tritt erst mit Eintragung ins Vereinsregister in Kraft
+  // in-effect: "Tag des Eintrags in das Vereinsregister", // Konkretes Datum des Inkrafttretens wissen wir nicht
+  in-effect: none,
   draft: false,
   // Template
   logo: image("kcm.png", alt: "KickerClub München e. V."),
+  // Overrides
+  // Original intro:
+  // str-intro : (resolution, in-effect) => [Mit Beschluss (#resolution) tritt zum #in-effect in Kraft:]
+  str-intro : (resolution, in-effect) => [Mit Beschluss der #resolution:]
 )
 
 // increase spacing around headline
