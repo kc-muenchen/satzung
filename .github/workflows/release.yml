@@ -67,10 +67,8 @@ jobs:
         mv satzung.pdf satzung-${{ steps.get_version.outputs.version }}.pdf
 
     - name: Upload PDF to Nextcloud
-      uses: trympet/nextcloud-artifacts-action@v2
-      with:
-        name: 'Satzung/satzung-${{ steps.get_version.outputs.version }}'
-        path: 'satzung-${{ steps.get_version.outputs.version }}.pdf'
-        nextcloud-url: ${{ secrets.NEXTCLOUD_URL }}
-        nextcloud-username: ${{ secrets.NEXTCLOUD_USERNAME }}
-        nextcloud-password: ${{ secrets.NEXTCLOUD_PASSWORD }}
+      run: |
+        curl -X PUT -u "${{ secrets.NEXTCLOUD_USERNAME }}:${{ secrets.NEXTCLOUD_PASSWORD }}" \
+          "${{ secrets.NEXTCLOUD_URL }}/remote.php/dav/files/${{ secrets.NEXTCLOUD_USERNAME }}/Satzung/satzung-${{ steps.get_version.outputs.version }}.pdf" \
+          --data-binary @"satzung-${{ steps.get_version.outputs.version }}.pdf" \
+          -H "Content-Type: application/pdf"
